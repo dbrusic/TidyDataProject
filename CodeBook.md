@@ -40,7 +40,7 @@ The final data table is called `tidydata`
 ---
 ### Variables
 
-####There are 68 total variables found in `tidydata` (the data table created with `run_analysis.R`)
+There are 68 total variables found in `tidydata` (the data table created with `run_analysis.R`):
 
 1. subject: an integer (1-30) corresponding to the subject who performed the activity                     
 2. activity: an activity (walking, walking upstairs, walking downstairs, sitting, standing, and laying) that the subject performed
