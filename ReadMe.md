@@ -1,4 +1,5 @@
-#Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
+
 This readme file explains how `run_analysis.R` works (from downloading the data to creating the final tidy data set), how to use `run_analysis.R`, and how it directly follows the instructions for the Getting and Cleaning Data Coursera course project. 
 
 #### Instructions for using `run_analysis.R`:
@@ -54,7 +55,7 @@ How `run_analysis.R` works:
 **Step 3: Reading `tidydata` into R**
 
 * `run_analysis.R` writes `tidydata` to a text file called `tidydata.txt`. It is saved in the working directory that `run_analysis.R` is sourced in.
-* Set your working directory to the directory in which `tidydata.txt` is saved and use `read.table("tidydata.txt")` to read the table into R.
+* Set your working directory to the directory in which `tidydata.txt` is saved and use `read.table("tidydata.txt", header = TRUE)` to read the table into R.
 
 ---
 `tidydata` is tidy because each variable forms a column, each observation forms a row, and the table is made up of only one type of observational unit (smartphone signals measuring the subjects position in space while that subject is performing a certain activity).
